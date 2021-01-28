@@ -1,6 +1,8 @@
 import { Machine } from "./model/machine";
 
-export const ChallengeDescription = (props: { machines: Machine[] }) => {
+export const ChallengeDescription = (props: {
+  machines: Machine[] | undefined;
+}) => {
   return (
     <section>
       <div className="container">
@@ -56,14 +58,15 @@ await getMachines()
             console.log)
           </li>
         </ul>
-        <details>
-          <summary>check the sample data</summary>
-          {props.machines && (
-            <pre>
-              {JSON.stringify(JSON.parse(props.machines || []), null, 2)}
-            </pre>
-          )}
-        </details>
+        {props.machines && (
+          <details>
+            <summary>check the sample data</summary>
+            {props.machines && (
+              <pre>{JSON.stringify(props.machines, null, 2)}</pre>
+            )}
+          </details>
+        )}
+
         <h4>bonus points</h4>
         <ul>
           <li>

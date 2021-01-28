@@ -1,9 +1,10 @@
-import machines from '../data/machines.json'
+import machines from "../data/machines.json";
+import { Machine } from "../model/machine";
 
-export async function getMachines() {
-  return new Promise(resolve => {
+export async function getMachines(): Promise<Machine[]> {
+  return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(JSON.stringify(machines))
-    }, 2000)
-  })
+      resolve(machines);
+    }, 2000);
+  });
 }
