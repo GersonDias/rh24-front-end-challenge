@@ -11,7 +11,7 @@ export const Contact = () => {
           </a>
         </p>
         <p>
-          or submit a pull request in{" "}
+          or submit a pull request on{" "}
           <a href="https://github.com/GersonDias/rh24-front-end-challenge">
             {" "}
             GitHub

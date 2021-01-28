@@ -91,6 +91,10 @@ await getMachines()
             competitive salary offer (we're looking for a full time team member,
             no freelas!)
           </li>
+          <li>
+            what does <strong>competitive salary offer</strong> means? you name
+            it, what is a competitive offer for you? (in EUR/month)
+          </li>
         </ul>
       </div>
     </section>
