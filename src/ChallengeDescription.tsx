@@ -7,7 +7,7 @@ export const ChallengeDescription = (props: { machines: Machine[] }) => {
         <h3>complete our challenge and became part of our team!</h3>
         <h4>what is MetalHeaven/Rhodium24?</h4>
         <p>
-          MetalHeaven is a young Dutch startup aiming at the sheet metal market.
+          MetalHeaven is a young Dutch startup aiming the sheet metal market.
           We're building a full sales platform (Rhodium24) for that market,
           including a top-grade feature recognition engine and a customizable
           portal for those factories' clients to follow their orders.
