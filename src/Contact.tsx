@@ -4,10 +4,17 @@ export const Contact = () => {
       <div className="container">
         <p>
           send your code/instructions to{" "}
-          <a href="mailto:gerson@metal-heaven.com">gerson@metal-heaven.com</a>{" "}
-          or{" "}
+          <a href="mailto:gerson@metal-heaven.com">gerson@metal-heaven.com</a>
+          {", "}
           <a href="https://www.linkedin.com/in/gersondias/">
             ping me at linkedin
+          </a>
+        </p>
+        <p>
+          or submit a pull request in{" "}
+          <a href="https://github.com/GersonDias/rh24-front-end-challenge">
+            {" "}
+            GitHub
           </a>
         </p>
         <a href="https://www.metal-heaven.com/rhodium24/" target="blank">

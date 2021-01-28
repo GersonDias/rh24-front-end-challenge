@@ -87,7 +87,10 @@ await getMachines()
             full remote work (English is not a hard requirement, be bold
             Portuguese speaker fellows!)
           </li>
-          <li>competitive salary offer</li>
+          <li>
+            competitive salary offer (we're looking for a full time team member,
+            no freelas!)
+          </li>
         </ul>
       </div>
     </section>

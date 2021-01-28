@@ -11,6 +11,7 @@
 pre {
   background-color: lightgrey;
   padding: 1em;
+  white-space: pre-line;
 }
 
 .contact-section .container {
