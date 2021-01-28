@@ -42,6 +42,10 @@ await getMachines();
 - user should be able to change the "value" value
 - user should be able to save the changes (for this sample, just `console.log`)
 
+## codesandbox
+
+you can use this [codesandbox](https://codesandbox.io/s/reverent-chatelet-8wc5f?file=/src/app.tsx) as start point
+
 ## bonus points
 
 - how easy is to use the control or update the form? (do I hear auto save?)
