@@ -11,6 +11,9 @@
 pre {
   background-color: lightgrey;
   padding: 1em;
+}
+
+li pre {
   white-space: pre-line;
 }
 
